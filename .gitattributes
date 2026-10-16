@@ -1,0 +1,3 @@
+# Preserve the issued input byte-for-byte; keep generated reports deterministic.
+data/verification_logs.csv -text
+reports/*.csv text eol=lf

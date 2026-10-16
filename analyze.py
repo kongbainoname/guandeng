@@ -80,7 +80,7 @@ def write_csv(path, rows, fields=None):
     if not fields:
         fields = list(rows[0]) if rows else []
     with path.open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+        writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore", lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
