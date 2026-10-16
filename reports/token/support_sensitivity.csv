@@ -1,0 +1,7 @@
+min_support,base_mode,n,observed_failures,flagged,original_flag_failures,unflagged_observed_failures,simulated_flag_failures,simulated_total_failures,flag_hours,simulated_failure_hours,simulated_total_hours,baseline_hours,simulated_net_hours,unknown_flags,net_after_unknown_flag_cost_only
+20,team,346,33,74,24,9,0.0,9.0,740,1080.0,1820.0,3960,2140.0,2,2120.0
+20,team_score,346,33,86,26,7,1.0,8.0,860,960.0,1820.0,3960,2140.0,2,2120.0
+50,team,346,33,74,24,9,0.0,9.0,740,1080.0,1820.0,3960,2140.0,2,2120.0
+50,team_score,346,33,74,24,9,0.0,9.0,740,1080.0,1820.0,3960,2140.0,2,2120.0
+100,team,346,33,74,24,9,0.0,9.0,740,1080.0,1820.0,3960,2140.0,2,2120.0
+100,team_score,346,33,74,24,9,0.0,9.0,740,1080.0,1820.0,3960,2140.0,2,2120.0

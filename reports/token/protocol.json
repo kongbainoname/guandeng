@@ -1,0 +1,9 @@
+{
+  "raw_sha256": "deb9315f42e576e7227b98ec81ee5f34294d00bc5c3ab4d9bad0a43b7d460822",
+  "high_token_definition": ">65",
+  "token_threshold_selected_train": 35,
+  "mean_lag_high_token": 20.62135922330097,
+  "mean_lag_other_token": 15.90423162583519,
+  "pearson_token_lag": 0.1516451479853722,
+  "availability": "token_usage is measured during/after current check; retrospective only"
+}
