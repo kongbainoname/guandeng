@@ -1,0 +1,85 @@
+{
+  "audit": {
+    "raw_rows": 1214,
+    "exact_duplicate_rows": 58,
+    "unique_records": 1156,
+    "missing_labels": 52,
+    "sha256": "deb9315f42e576e7227b98ec81ee5f34294d00bc5c3ab4d9bad0a43b7d460822",
+    "labeled_records": 1104,
+    "failures": 120,
+    "period_start": "2026-09-01T07:02:00+08:00",
+    "period_end": "2026-09-07T21:58:00+08:00",
+    "lag_min": 0.0,
+    "lag_max": 65.0
+  },
+  "policy": {
+    "threshold_minutes": 15,
+    "comparison": ">",
+    "calibration_q_assumption": 0.5,
+    "train_before": "2026-09-06T00:00:00+08:00",
+    "candidate_thresholds": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      65,
+      90
+    ],
+    "failure_hours": 120,
+    "flag_hours": 10,
+    "eligible_teams": [
+      "制造组",
+      "消费组",
+      "科技组",
+      "金融组"
+    ],
+    "min_training_flags_per_team": 30
+  },
+  "windows": {
+    "train": {
+      "n": 758,
+      "failures": 87,
+      "flagged": 185,
+      "caught_failures": 69,
+      "false_flags": 116,
+      "missed_failures": 18,
+      "baseline_hours": 10440,
+      "net_hours_q50": 2290.0,
+      "net_hours_q100_upper_bound": 6430,
+      "break_even_q": 0.22342995169082125
+    },
+    "test": {
+      "n": 346,
+      "failures": 33,
+      "flagged": 74,
+      "caught_failures": 24,
+      "false_flags": 50,
+      "missed_failures": 9,
+      "baseline_hours": 3960,
+      "net_hours_q50": 700.0,
+      "net_hours_q100_upper_bound": 2140,
+      "break_even_q": 0.2569444444444444
+    },
+    "all": {
+      "n": 1104,
+      "failures": 120,
+      "flagged": 259,
+      "caught_failures": 93,
+      "false_flags": 166,
+      "missed_failures": 27,
+      "baseline_hours": 14400,
+      "net_hours_q50": 2990.0,
+      "net_hours_q100_upper_bound": 8570,
+      "break_even_q": 0.23207885304659498
+    }
+  }
+}

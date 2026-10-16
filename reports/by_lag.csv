@@ -1,0 +1,3 @@
+lag_group,records,labeled,missing_labels,failures,failure_rate
+over_threshold,345,328,17,97,0.29573170731707316
+within_threshold,811,776,35,23,0.029639175257731958

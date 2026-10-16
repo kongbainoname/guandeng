@@ -1,0 +1,6 @@
+team_code,eligible,n,failures,flagged,caught_failures,false_flags,missed_failures,baseline_hours,net_hours_q50,net_hours_q100_upper_bound,break_even_q
+制造组,True,146,17,42,17,25,0,2040,600.0,1620,0.20588235294117646
+医疗组,False,143,13,50,4,46,9,1560,-260.0,-20,1.0416666666666667
+消费组,True,166,23,55,20,35,3,2760,650.0,1850,0.22916666666666666
+科技组,True,159,21,51,20,31,1,2520,690.0,1890,0.2125
+金融组,True,144,13,37,12,25,1,1560,350.0,1070,0.2569444444444444

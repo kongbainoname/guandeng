@@ -1,0 +1,5 @@
+score_lag,records,labeled,missing_labels,failures,failure_rate
+lag_high/score_gt3,296,281,15,79,0.28113879003558717
+lag_high/score_le3,49,47,2,18,0.3829787234042553
+lag_low/score_gt3,700,670,30,8,0.011940298507462687
+lag_low/score_le3,111,106,5,15,0.14150943396226415

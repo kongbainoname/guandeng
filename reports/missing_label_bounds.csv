@@ -1,0 +1,4 @@
+window,missing_flagged,known_label_net_hours_q50,net_hours_q50_if_unknown_flags_never_fail,net_hours_q50_if_unknown_flags_all_fail
+train,13,2290.0,2160.0,2940.0
+test,2,700.0,680.0,800.0
+all,15,2990.0,2840.0,3740.0
