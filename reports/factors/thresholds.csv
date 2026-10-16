@@ -1,0 +1,661 @@
+mode,q_assumed,min_support,segment,train_n,train_failures,own_threshold_supported,source,threshold_minutes
+global,0,50,all_eligible,615,74,True,segment,disabled
+team,0,50,制造组,146,17,True,segment,disabled
+team,0,50,消费组,166,23,True,segment,disabled
+team,0,50,科技组,159,21,True,segment,disabled
+team,0,50,金融组,144,13,True,segment,disabled
+team_score,0,50,制造组 / score<5,21,4,False,team_fallback,disabled
+team_score,0,50,制造组 / score>=5,125,13,True,segment,disabled
+team_score,0,50,消费组 / score<5,30,7,False,team_fallback,disabled
+team_score,0,50,消费组 / score>=5,136,16,True,segment,disabled
+team_score,0,50,科技组 / score<5,24,3,False,team_fallback,disabled
+team_score,0,50,科技组 / score>=5,135,18,True,segment,disabled
+team_score,0,50,金融组 / score<5,30,3,False,team_fallback,disabled
+team_score,0,50,金融组 / score>=5,114,10,True,segment,disabled
+team_clause,0,50,制造组 / 业务概览,14,1,False,team_fallback,disabled
+team_clause,0,50,制造组 / 关连交易,10,0,False,team_fallback,disabled
+team_clause,0,50,制造组 / 历史沿革,13,1,False,team_fallback,disabled
+team_clause,0,50,制造组 / 合规运营,16,2,False,team_fallback,disabled
+team_clause,0,50,制造组 / 知识产权,16,3,False,team_fallback,disabled
+team_clause,0,50,制造组 / 税务核查,16,5,False,team_fallback,disabled
+team_clause,0,50,制造组 / 股权架构,9,0,False,team_fallback,disabled
+team_clause,0,50,制造组 / 诉讼仲裁,19,0,False,team_fallback,disabled
+team_clause,0,50,制造组 / 财务指标,17,2,False,team_fallback,disabled
+team_clause,0,50,制造组 / 重大合同,16,3,False,team_fallback,disabled
+team_clause,0,50,消费组 / 业务概览,18,1,False,team_fallback,disabled
+team_clause,0,50,消费组 / 关连交易,23,2,False,team_fallback,disabled
+team_clause,0,50,消费组 / 历史沿革,17,4,False,team_fallback,disabled
+team_clause,0,50,消费组 / 合规运营,10,4,False,team_fallback,disabled
+team_clause,0,50,消费组 / 知识产权,23,3,False,team_fallback,disabled
+team_clause,0,50,消费组 / 税务核查,15,0,False,team_fallback,disabled
+team_clause,0,50,消费组 / 股权架构,14,3,False,team_fallback,disabled
+team_clause,0,50,消费组 / 诉讼仲裁,16,2,False,team_fallback,disabled
+team_clause,0,50,消费组 / 财务指标,14,2,False,team_fallback,disabled
+team_clause,0,50,消费组 / 重大合同,16,2,False,team_fallback,disabled
+team_clause,0,50,科技组 / 业务概览,17,3,False,team_fallback,disabled
+team_clause,0,50,科技组 / 关连交易,13,1,False,team_fallback,disabled
+team_clause,0,50,科技组 / 历史沿革,17,5,False,team_fallback,disabled
+team_clause,0,50,科技组 / 合规运营,11,2,False,team_fallback,disabled
+team_clause,0,50,科技组 / 知识产权,24,3,False,team_fallback,disabled
+team_clause,0,50,科技组 / 税务核查,17,2,False,team_fallback,disabled
+team_clause,0,50,科技组 / 股权架构,14,2,False,team_fallback,disabled
+team_clause,0,50,科技组 / 诉讼仲裁,9,0,False,team_fallback,disabled
+team_clause,0,50,科技组 / 财务指标,15,2,False,team_fallback,disabled
+team_clause,0,50,科技组 / 重大合同,22,1,False,team_fallback,disabled
+team_clause,0,50,金融组 / 业务概览,15,1,False,team_fallback,disabled
+team_clause,0,50,金融组 / 关连交易,15,1,False,team_fallback,disabled
+team_clause,0,50,金融组 / 历史沿革,14,1,False,team_fallback,disabled
+team_clause,0,50,金融组 / 合规运营,17,2,False,team_fallback,disabled
+team_clause,0,50,金融组 / 知识产权,14,2,False,team_fallback,disabled
+team_clause,0,50,金融组 / 税务核查,14,0,False,team_fallback,disabled
+team_clause,0,50,金融组 / 股权架构,15,3,False,team_fallback,disabled
+team_clause,0,50,金融组 / 诉讼仲裁,17,2,False,team_fallback,disabled
+team_clause,0,50,金融组 / 财务指标,12,1,False,team_fallback,disabled
+team_clause,0,50,金融组 / 重大合同,11,0,False,team_fallback,disabled
+team_score_clause,0,50,制造组 / score<5 / 业务概览,1,0,False,team_fallback,disabled
+team_score_clause,0,50,制造组 / score<5 / 关连交易,1,0,False,team_fallback,disabled
+team_score_clause,0,50,制造组 / score<5 / 历史沿革,1,0,False,team_fallback,disabled
+team_score_clause,0,50,制造组 / score<5 / 合规运营,2,0,False,team_fallback,disabled
+team_score_clause,0,50,制造组 / score<5 / 知识产权,2,1,False,team_fallback,disabled
+team_score_clause,0,50,制造组 / score<5 / 税务核查,3,1,False,team_fallback,disabled
+team_score_clause,0,50,制造组 / score<5 / 诉讼仲裁,3,0,False,team_fallback,disabled
+team_score_clause,0,50,制造组 / score<5 / 财务指标,4,0,False,team_fallback,disabled
+team_score_clause,0,50,制造组 / score<5 / 重大合同,4,2,False,team_fallback,disabled
+team_score_clause,0,50,制造组 / score>=5 / 业务概览,13,1,False,team_fallback,disabled
+team_score_clause,0,50,制造组 / score>=5 / 关连交易,9,0,False,team_fallback,disabled
+team_score_clause,0,50,制造组 / score>=5 / 历史沿革,12,1,False,team_fallback,disabled
+team_score_clause,0,50,制造组 / score>=5 / 合规运营,14,2,False,team_fallback,disabled
+team_score_clause,0,50,制造组 / score>=5 / 知识产权,14,2,False,team_fallback,disabled
+team_score_clause,0,50,制造组 / score>=5 / 税务核查,13,4,False,team_fallback,disabled
+team_score_clause,0,50,制造组 / score>=5 / 股权架构,9,0,False,team_fallback,disabled
+team_score_clause,0,50,制造组 / score>=5 / 诉讼仲裁,16,0,False,team_fallback,disabled
+team_score_clause,0,50,制造组 / score>=5 / 财务指标,13,2,False,team_fallback,disabled
+team_score_clause,0,50,制造组 / score>=5 / 重大合同,12,1,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score<5 / 业务概览,5,1,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score<5 / 关连交易,2,0,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score<5 / 历史沿革,2,2,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score<5 / 合规运营,2,0,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score<5 / 知识产权,3,0,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score<5 / 税务核查,4,0,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score<5 / 股权架构,4,2,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score<5 / 诉讼仲裁,2,1,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score<5 / 财务指标,5,1,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score<5 / 重大合同,1,0,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score>=5 / 业务概览,13,0,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score>=5 / 关连交易,21,2,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score>=5 / 历史沿革,15,2,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score>=5 / 合规运营,8,4,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score>=5 / 知识产权,20,3,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score>=5 / 税务核查,11,0,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score>=5 / 股权架构,10,1,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score>=5 / 诉讼仲裁,14,1,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score>=5 / 财务指标,9,1,False,team_fallback,disabled
+team_score_clause,0,50,消费组 / score>=5 / 重大合同,15,2,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score<5 / 业务概览,5,0,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score<5 / 关连交易,1,0,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score<5 / 历史沿革,1,0,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score<5 / 合规运营,1,0,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score<5 / 知识产权,5,0,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score<5 / 税务核查,2,1,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score<5 / 股权架构,1,1,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score<5 / 诉讼仲裁,1,0,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score<5 / 财务指标,3,1,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score<5 / 重大合同,4,0,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score>=5 / 业务概览,12,3,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score>=5 / 关连交易,12,1,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score>=5 / 历史沿革,16,5,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score>=5 / 合规运营,10,2,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score>=5 / 知识产权,19,3,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score>=5 / 税务核查,15,1,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score>=5 / 股权架构,13,1,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score>=5 / 诉讼仲裁,8,0,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score>=5 / 财务指标,12,1,False,team_fallback,disabled
+team_score_clause,0,50,科技组 / score>=5 / 重大合同,18,1,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score<5 / 业务概览,2,0,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score<5 / 关连交易,1,0,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score<5 / 历史沿革,4,0,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score<5 / 合规运营,4,1,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score<5 / 知识产权,2,1,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score<5 / 税务核查,4,0,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score<5 / 股权架构,5,1,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score<5 / 诉讼仲裁,5,0,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score<5 / 财务指标,1,0,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score<5 / 重大合同,2,0,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score>=5 / 业务概览,13,1,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score>=5 / 关连交易,14,1,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score>=5 / 历史沿革,10,1,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score>=5 / 合规运营,13,1,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score>=5 / 知识产权,12,1,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score>=5 / 税务核查,10,0,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score>=5 / 股权架构,10,2,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score>=5 / 诉讼仲裁,12,2,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score>=5 / 财务指标,11,1,False,team_fallback,disabled
+team_score_clause,0,50,金融组 / score>=5 / 重大合同,9,0,False,team_fallback,disabled
+global,0.25,50,all_eligible,615,74,True,segment,15
+team,0.25,50,制造组,146,17,True,segment,15
+team,0.25,50,消费组,166,23,True,segment,60
+team,0.25,50,科技组,159,21,True,segment,30
+team,0.25,50,金融组,144,13,True,segment,60
+team_score,0.25,50,制造组 / score<5,21,4,False,team_fallback,15
+team_score,0.25,50,制造组 / score>=5,125,13,True,segment,15
+team_score,0.25,50,消费组 / score<5,30,7,False,team_fallback,60
+team_score,0.25,50,消费组 / score>=5,136,16,True,segment,55
+team_score,0.25,50,科技组 / score<5,24,3,False,team_fallback,30
+team_score,0.25,50,科技组 / score>=5,135,18,True,segment,30
+team_score,0.25,50,金融组 / score<5,30,3,False,team_fallback,60
+team_score,0.25,50,金融组 / score>=5,114,10,True,segment,disabled
+team_clause,0.25,50,制造组 / 业务概览,14,1,False,team_fallback,15
+team_clause,0.25,50,制造组 / 关连交易,10,0,False,team_fallback,15
+team_clause,0.25,50,制造组 / 历史沿革,13,1,False,team_fallback,15
+team_clause,0.25,50,制造组 / 合规运营,16,2,False,team_fallback,15
+team_clause,0.25,50,制造组 / 知识产权,16,3,False,team_fallback,15
+team_clause,0.25,50,制造组 / 税务核查,16,5,False,team_fallback,15
+team_clause,0.25,50,制造组 / 股权架构,9,0,False,team_fallback,15
+team_clause,0.25,50,制造组 / 诉讼仲裁,19,0,False,team_fallback,15
+team_clause,0.25,50,制造组 / 财务指标,17,2,False,team_fallback,15
+team_clause,0.25,50,制造组 / 重大合同,16,3,False,team_fallback,15
+team_clause,0.25,50,消费组 / 业务概览,18,1,False,team_fallback,60
+team_clause,0.25,50,消费组 / 关连交易,23,2,False,team_fallback,60
+team_clause,0.25,50,消费组 / 历史沿革,17,4,False,team_fallback,60
+team_clause,0.25,50,消费组 / 合规运营,10,4,False,team_fallback,60
+team_clause,0.25,50,消费组 / 知识产权,23,3,False,team_fallback,60
+team_clause,0.25,50,消费组 / 税务核查,15,0,False,team_fallback,60
+team_clause,0.25,50,消费组 / 股权架构,14,3,False,team_fallback,60
+team_clause,0.25,50,消费组 / 诉讼仲裁,16,2,False,team_fallback,60
+team_clause,0.25,50,消费组 / 财务指标,14,2,False,team_fallback,60
+team_clause,0.25,50,消费组 / 重大合同,16,2,False,team_fallback,60
+team_clause,0.25,50,科技组 / 业务概览,17,3,False,team_fallback,30
+team_clause,0.25,50,科技组 / 关连交易,13,1,False,team_fallback,30
+team_clause,0.25,50,科技组 / 历史沿革,17,5,False,team_fallback,30
+team_clause,0.25,50,科技组 / 合规运营,11,2,False,team_fallback,30
+team_clause,0.25,50,科技组 / 知识产权,24,3,False,team_fallback,30
+team_clause,0.25,50,科技组 / 税务核查,17,2,False,team_fallback,30
+team_clause,0.25,50,科技组 / 股权架构,14,2,False,team_fallback,30
+team_clause,0.25,50,科技组 / 诉讼仲裁,9,0,False,team_fallback,30
+team_clause,0.25,50,科技组 / 财务指标,15,2,False,team_fallback,30
+team_clause,0.25,50,科技组 / 重大合同,22,1,False,team_fallback,30
+team_clause,0.25,50,金融组 / 业务概览,15,1,False,team_fallback,60
+team_clause,0.25,50,金融组 / 关连交易,15,1,False,team_fallback,60
+team_clause,0.25,50,金融组 / 历史沿革,14,1,False,team_fallback,60
+team_clause,0.25,50,金融组 / 合规运营,17,2,False,team_fallback,60
+team_clause,0.25,50,金融组 / 知识产权,14,2,False,team_fallback,60
+team_clause,0.25,50,金融组 / 税务核查,14,0,False,team_fallback,60
+team_clause,0.25,50,金融组 / 股权架构,15,3,False,team_fallback,60
+team_clause,0.25,50,金融组 / 诉讼仲裁,17,2,False,team_fallback,60
+team_clause,0.25,50,金融组 / 财务指标,12,1,False,team_fallback,60
+team_clause,0.25,50,金融组 / 重大合同,11,0,False,team_fallback,60
+team_score_clause,0.25,50,制造组 / score<5 / 业务概览,1,0,False,team_fallback,15
+team_score_clause,0.25,50,制造组 / score<5 / 关连交易,1,0,False,team_fallback,15
+team_score_clause,0.25,50,制造组 / score<5 / 历史沿革,1,0,False,team_fallback,15
+team_score_clause,0.25,50,制造组 / score<5 / 合规运营,2,0,False,team_fallback,15
+team_score_clause,0.25,50,制造组 / score<5 / 知识产权,2,1,False,team_fallback,15
+team_score_clause,0.25,50,制造组 / score<5 / 税务核查,3,1,False,team_fallback,15
+team_score_clause,0.25,50,制造组 / score<5 / 诉讼仲裁,3,0,False,team_fallback,15
+team_score_clause,0.25,50,制造组 / score<5 / 财务指标,4,0,False,team_fallback,15
+team_score_clause,0.25,50,制造组 / score<5 / 重大合同,4,2,False,team_fallback,15
+team_score_clause,0.25,50,制造组 / score>=5 / 业务概览,13,1,False,team_fallback,15
+team_score_clause,0.25,50,制造组 / score>=5 / 关连交易,9,0,False,team_fallback,15
+team_score_clause,0.25,50,制造组 / score>=5 / 历史沿革,12,1,False,team_fallback,15
+team_score_clause,0.25,50,制造组 / score>=5 / 合规运营,14,2,False,team_fallback,15
+team_score_clause,0.25,50,制造组 / score>=5 / 知识产权,14,2,False,team_fallback,15
+team_score_clause,0.25,50,制造组 / score>=5 / 税务核查,13,4,False,team_fallback,15
+team_score_clause,0.25,50,制造组 / score>=5 / 股权架构,9,0,False,team_fallback,15
+team_score_clause,0.25,50,制造组 / score>=5 / 诉讼仲裁,16,0,False,team_fallback,15
+team_score_clause,0.25,50,制造组 / score>=5 / 财务指标,13,2,False,team_fallback,15
+team_score_clause,0.25,50,制造组 / score>=5 / 重大合同,12,1,False,team_fallback,15
+team_score_clause,0.25,50,消费组 / score<5 / 业务概览,5,1,False,team_fallback,60
+team_score_clause,0.25,50,消费组 / score<5 / 关连交易,2,0,False,team_fallback,60
+team_score_clause,0.25,50,消费组 / score<5 / 历史沿革,2,2,False,team_fallback,60
+team_score_clause,0.25,50,消费组 / score<5 / 合规运营,2,0,False,team_fallback,60
+team_score_clause,0.25,50,消费组 / score<5 / 知识产权,3,0,False,team_fallback,60
+team_score_clause,0.25,50,消费组 / score<5 / 税务核查,4,0,False,team_fallback,60
+team_score_clause,0.25,50,消费组 / score<5 / 股权架构,4,2,False,team_fallback,60
+team_score_clause,0.25,50,消费组 / score<5 / 诉讼仲裁,2,1,False,team_fallback,60
+team_score_clause,0.25,50,消费组 / score<5 / 财务指标,5,1,False,team_fallback,60
+team_score_clause,0.25,50,消费组 / score<5 / 重大合同,1,0,False,team_fallback,60
+team_score_clause,0.25,50,消费组 / score>=5 / 业务概览,13,0,False,team_fallback,60
+team_score_clause,0.25,50,消费组 / score>=5 / 关连交易,21,2,False,team_fallback,60
+team_score_clause,0.25,50,消费组 / score>=5 / 历史沿革,15,2,False,team_fallback,60
+team_score_clause,0.25,50,消费组 / score>=5 / 合规运营,8,4,False,team_fallback,60
+team_score_clause,0.25,50,消费组 / score>=5 / 知识产权,20,3,False,team_fallback,60
+team_score_clause,0.25,50,消费组 / score>=5 / 税务核查,11,0,False,team_fallback,60
+team_score_clause,0.25,50,消费组 / score>=5 / 股权架构,10,1,False,team_fallback,60
+team_score_clause,0.25,50,消费组 / score>=5 / 诉讼仲裁,14,1,False,team_fallback,60
+team_score_clause,0.25,50,消费组 / score>=5 / 财务指标,9,1,False,team_fallback,60
+team_score_clause,0.25,50,消费组 / score>=5 / 重大合同,15,2,False,team_fallback,60
+team_score_clause,0.25,50,科技组 / score<5 / 业务概览,5,0,False,team_fallback,30
+team_score_clause,0.25,50,科技组 / score<5 / 关连交易,1,0,False,team_fallback,30
+team_score_clause,0.25,50,科技组 / score<5 / 历史沿革,1,0,False,team_fallback,30
+team_score_clause,0.25,50,科技组 / score<5 / 合规运营,1,0,False,team_fallback,30
+team_score_clause,0.25,50,科技组 / score<5 / 知识产权,5,0,False,team_fallback,30
+team_score_clause,0.25,50,科技组 / score<5 / 税务核查,2,1,False,team_fallback,30
+team_score_clause,0.25,50,科技组 / score<5 / 股权架构,1,1,False,team_fallback,30
+team_score_clause,0.25,50,科技组 / score<5 / 诉讼仲裁,1,0,False,team_fallback,30
+team_score_clause,0.25,50,科技组 / score<5 / 财务指标,3,1,False,team_fallback,30
+team_score_clause,0.25,50,科技组 / score<5 / 重大合同,4,0,False,team_fallback,30
+team_score_clause,0.25,50,科技组 / score>=5 / 业务概览,12,3,False,team_fallback,30
+team_score_clause,0.25,50,科技组 / score>=5 / 关连交易,12,1,False,team_fallback,30
+team_score_clause,0.25,50,科技组 / score>=5 / 历史沿革,16,5,False,team_fallback,30
+team_score_clause,0.25,50,科技组 / score>=5 / 合规运营,10,2,False,team_fallback,30
+team_score_clause,0.25,50,科技组 / score>=5 / 知识产权,19,3,False,team_fallback,30
+team_score_clause,0.25,50,科技组 / score>=5 / 税务核查,15,1,False,team_fallback,30
+team_score_clause,0.25,50,科技组 / score>=5 / 股权架构,13,1,False,team_fallback,30
+team_score_clause,0.25,50,科技组 / score>=5 / 诉讼仲裁,8,0,False,team_fallback,30
+team_score_clause,0.25,50,科技组 / score>=5 / 财务指标,12,1,False,team_fallback,30
+team_score_clause,0.25,50,科技组 / score>=5 / 重大合同,18,1,False,team_fallback,30
+team_score_clause,0.25,50,金融组 / score<5 / 业务概览,2,0,False,team_fallback,60
+team_score_clause,0.25,50,金融组 / score<5 / 关连交易,1,0,False,team_fallback,60
+team_score_clause,0.25,50,金融组 / score<5 / 历史沿革,4,0,False,team_fallback,60
+team_score_clause,0.25,50,金融组 / score<5 / 合规运营,4,1,False,team_fallback,60
+team_score_clause,0.25,50,金融组 / score<5 / 知识产权,2,1,False,team_fallback,60
+team_score_clause,0.25,50,金融组 / score<5 / 税务核查,4,0,False,team_fallback,60
+team_score_clause,0.25,50,金融组 / score<5 / 股权架构,5,1,False,team_fallback,60
+team_score_clause,0.25,50,金融组 / score<5 / 诉讼仲裁,5,0,False,team_fallback,60
+team_score_clause,0.25,50,金融组 / score<5 / 财务指标,1,0,False,team_fallback,60
+team_score_clause,0.25,50,金融组 / score<5 / 重大合同,2,0,False,team_fallback,60
+team_score_clause,0.25,50,金融组 / score>=5 / 业务概览,13,1,False,team_fallback,60
+team_score_clause,0.25,50,金融组 / score>=5 / 关连交易,14,1,False,team_fallback,60
+team_score_clause,0.25,50,金融组 / score>=5 / 历史沿革,10,1,False,team_fallback,60
+team_score_clause,0.25,50,金融组 / score>=5 / 合规运营,13,1,False,team_fallback,60
+team_score_clause,0.25,50,金融组 / score>=5 / 知识产权,12,1,False,team_fallback,60
+team_score_clause,0.25,50,金融组 / score>=5 / 税务核查,10,0,False,team_fallback,60
+team_score_clause,0.25,50,金融组 / score>=5 / 股权架构,10,2,False,team_fallback,60
+team_score_clause,0.25,50,金融组 / score>=5 / 诉讼仲裁,12,2,False,team_fallback,60
+team_score_clause,0.25,50,金融组 / score>=5 / 财务指标,11,1,False,team_fallback,60
+team_score_clause,0.25,50,金融组 / score>=5 / 重大合同,9,0,False,team_fallback,60
+global,0.5,50,all_eligible,615,74,True,segment,15
+team,0.5,50,制造组,146,17,True,segment,15
+team,0.5,50,消费组,166,23,True,segment,15
+team,0.5,50,科技组,159,21,True,segment,15
+team,0.5,50,金融组,144,13,True,segment,15
+team_score,0.5,50,制造组 / score<5,21,4,False,team_fallback,15
+team_score,0.5,50,制造组 / score>=5,125,13,True,segment,15
+team_score,0.5,50,消费组 / score<5,30,7,False,team_fallback,15
+team_score,0.5,50,消费组 / score>=5,136,16,True,segment,15
+team_score,0.5,50,科技组 / score<5,24,3,False,team_fallback,15
+team_score,0.5,50,科技组 / score>=5,135,18,True,segment,15
+team_score,0.5,50,金融组 / score<5,30,3,False,team_fallback,15
+team_score,0.5,50,金融组 / score>=5,114,10,True,segment,15
+team_clause,0.5,50,制造组 / 业务概览,14,1,False,team_fallback,15
+team_clause,0.5,50,制造组 / 关连交易,10,0,False,team_fallback,15
+team_clause,0.5,50,制造组 / 历史沿革,13,1,False,team_fallback,15
+team_clause,0.5,50,制造组 / 合规运营,16,2,False,team_fallback,15
+team_clause,0.5,50,制造组 / 知识产权,16,3,False,team_fallback,15
+team_clause,0.5,50,制造组 / 税务核查,16,5,False,team_fallback,15
+team_clause,0.5,50,制造组 / 股权架构,9,0,False,team_fallback,15
+team_clause,0.5,50,制造组 / 诉讼仲裁,19,0,False,team_fallback,15
+team_clause,0.5,50,制造组 / 财务指标,17,2,False,team_fallback,15
+team_clause,0.5,50,制造组 / 重大合同,16,3,False,team_fallback,15
+team_clause,0.5,50,消费组 / 业务概览,18,1,False,team_fallback,15
+team_clause,0.5,50,消费组 / 关连交易,23,2,False,team_fallback,15
+team_clause,0.5,50,消费组 / 历史沿革,17,4,False,team_fallback,15
+team_clause,0.5,50,消费组 / 合规运营,10,4,False,team_fallback,15
+team_clause,0.5,50,消费组 / 知识产权,23,3,False,team_fallback,15
+team_clause,0.5,50,消费组 / 税务核查,15,0,False,team_fallback,15
+team_clause,0.5,50,消费组 / 股权架构,14,3,False,team_fallback,15
+team_clause,0.5,50,消费组 / 诉讼仲裁,16,2,False,team_fallback,15
+team_clause,0.5,50,消费组 / 财务指标,14,2,False,team_fallback,15
+team_clause,0.5,50,消费组 / 重大合同,16,2,False,team_fallback,15
+team_clause,0.5,50,科技组 / 业务概览,17,3,False,team_fallback,15
+team_clause,0.5,50,科技组 / 关连交易,13,1,False,team_fallback,15
+team_clause,0.5,50,科技组 / 历史沿革,17,5,False,team_fallback,15
+team_clause,0.5,50,科技组 / 合规运营,11,2,False,team_fallback,15
+team_clause,0.5,50,科技组 / 知识产权,24,3,False,team_fallback,15
+team_clause,0.5,50,科技组 / 税务核查,17,2,False,team_fallback,15
+team_clause,0.5,50,科技组 / 股权架构,14,2,False,team_fallback,15
+team_clause,0.5,50,科技组 / 诉讼仲裁,9,0,False,team_fallback,15
+team_clause,0.5,50,科技组 / 财务指标,15,2,False,team_fallback,15
+team_clause,0.5,50,科技组 / 重大合同,22,1,False,team_fallback,15
+team_clause,0.5,50,金融组 / 业务概览,15,1,False,team_fallback,15
+team_clause,0.5,50,金融组 / 关连交易,15,1,False,team_fallback,15
+team_clause,0.5,50,金融组 / 历史沿革,14,1,False,team_fallback,15
+team_clause,0.5,50,金融组 / 合规运营,17,2,False,team_fallback,15
+team_clause,0.5,50,金融组 / 知识产权,14,2,False,team_fallback,15
+team_clause,0.5,50,金融组 / 税务核查,14,0,False,team_fallback,15
+team_clause,0.5,50,金融组 / 股权架构,15,3,False,team_fallback,15
+team_clause,0.5,50,金融组 / 诉讼仲裁,17,2,False,team_fallback,15
+team_clause,0.5,50,金融组 / 财务指标,12,1,False,team_fallback,15
+team_clause,0.5,50,金融组 / 重大合同,11,0,False,team_fallback,15
+team_score_clause,0.5,50,制造组 / score<5 / 业务概览,1,0,False,team_fallback,15
+team_score_clause,0.5,50,制造组 / score<5 / 关连交易,1,0,False,team_fallback,15
+team_score_clause,0.5,50,制造组 / score<5 / 历史沿革,1,0,False,team_fallback,15
+team_score_clause,0.5,50,制造组 / score<5 / 合规运营,2,0,False,team_fallback,15
+team_score_clause,0.5,50,制造组 / score<5 / 知识产权,2,1,False,team_fallback,15
+team_score_clause,0.5,50,制造组 / score<5 / 税务核查,3,1,False,team_fallback,15
+team_score_clause,0.5,50,制造组 / score<5 / 诉讼仲裁,3,0,False,team_fallback,15
+team_score_clause,0.5,50,制造组 / score<5 / 财务指标,4,0,False,team_fallback,15
+team_score_clause,0.5,50,制造组 / score<5 / 重大合同,4,2,False,team_fallback,15
+team_score_clause,0.5,50,制造组 / score>=5 / 业务概览,13,1,False,team_fallback,15
+team_score_clause,0.5,50,制造组 / score>=5 / 关连交易,9,0,False,team_fallback,15
+team_score_clause,0.5,50,制造组 / score>=5 / 历史沿革,12,1,False,team_fallback,15
+team_score_clause,0.5,50,制造组 / score>=5 / 合规运营,14,2,False,team_fallback,15
+team_score_clause,0.5,50,制造组 / score>=5 / 知识产权,14,2,False,team_fallback,15
+team_score_clause,0.5,50,制造组 / score>=5 / 税务核查,13,4,False,team_fallback,15
+team_score_clause,0.5,50,制造组 / score>=5 / 股权架构,9,0,False,team_fallback,15
+team_score_clause,0.5,50,制造组 / score>=5 / 诉讼仲裁,16,0,False,team_fallback,15
+team_score_clause,0.5,50,制造组 / score>=5 / 财务指标,13,2,False,team_fallback,15
+team_score_clause,0.5,50,制造组 / score>=5 / 重大合同,12,1,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score<5 / 业务概览,5,1,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score<5 / 关连交易,2,0,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score<5 / 历史沿革,2,2,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score<5 / 合规运营,2,0,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score<5 / 知识产权,3,0,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score<5 / 税务核查,4,0,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score<5 / 股权架构,4,2,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score<5 / 诉讼仲裁,2,1,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score<5 / 财务指标,5,1,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score<5 / 重大合同,1,0,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score>=5 / 业务概览,13,0,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score>=5 / 关连交易,21,2,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score>=5 / 历史沿革,15,2,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score>=5 / 合规运营,8,4,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score>=5 / 知识产权,20,3,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score>=5 / 税务核查,11,0,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score>=5 / 股权架构,10,1,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score>=5 / 诉讼仲裁,14,1,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score>=5 / 财务指标,9,1,False,team_fallback,15
+team_score_clause,0.5,50,消费组 / score>=5 / 重大合同,15,2,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score<5 / 业务概览,5,0,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score<5 / 关连交易,1,0,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score<5 / 历史沿革,1,0,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score<5 / 合规运营,1,0,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score<5 / 知识产权,5,0,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score<5 / 税务核查,2,1,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score<5 / 股权架构,1,1,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score<5 / 诉讼仲裁,1,0,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score<5 / 财务指标,3,1,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score<5 / 重大合同,4,0,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score>=5 / 业务概览,12,3,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score>=5 / 关连交易,12,1,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score>=5 / 历史沿革,16,5,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score>=5 / 合规运营,10,2,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score>=5 / 知识产权,19,3,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score>=5 / 税务核查,15,1,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score>=5 / 股权架构,13,1,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score>=5 / 诉讼仲裁,8,0,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score>=5 / 财务指标,12,1,False,team_fallback,15
+team_score_clause,0.5,50,科技组 / score>=5 / 重大合同,18,1,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score<5 / 业务概览,2,0,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score<5 / 关连交易,1,0,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score<5 / 历史沿革,4,0,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score<5 / 合规运营,4,1,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score<5 / 知识产权,2,1,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score<5 / 税务核查,4,0,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score<5 / 股权架构,5,1,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score<5 / 诉讼仲裁,5,0,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score<5 / 财务指标,1,0,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score<5 / 重大合同,2,0,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score>=5 / 业务概览,13,1,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score>=5 / 关连交易,14,1,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score>=5 / 历史沿革,10,1,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score>=5 / 合规运营,13,1,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score>=5 / 知识产权,12,1,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score>=5 / 税务核查,10,0,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score>=5 / 股权架构,10,2,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score>=5 / 诉讼仲裁,12,2,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score>=5 / 财务指标,11,1,False,team_fallback,15
+team_score_clause,0.5,50,金融组 / score>=5 / 重大合同,9,0,False,team_fallback,15
+global,0.75,50,all_eligible,615,74,True,segment,15
+team,0.75,50,制造组,146,17,True,segment,15
+team,0.75,50,消费组,166,23,True,segment,15
+team,0.75,50,科技组,159,21,True,segment,15
+team,0.75,50,金融组,144,13,True,segment,15
+team_score,0.75,50,制造组 / score<5,21,4,False,team_fallback,15
+team_score,0.75,50,制造组 / score>=5,125,13,True,segment,15
+team_score,0.75,50,消费组 / score<5,30,7,False,team_fallback,15
+team_score,0.75,50,消费组 / score>=5,136,16,True,segment,15
+team_score,0.75,50,科技组 / score<5,24,3,False,team_fallback,15
+team_score,0.75,50,科技组 / score>=5,135,18,True,segment,15
+team_score,0.75,50,金融组 / score<5,30,3,False,team_fallback,15
+team_score,0.75,50,金融组 / score>=5,114,10,True,segment,15
+team_clause,0.75,50,制造组 / 业务概览,14,1,False,team_fallback,15
+team_clause,0.75,50,制造组 / 关连交易,10,0,False,team_fallback,15
+team_clause,0.75,50,制造组 / 历史沿革,13,1,False,team_fallback,15
+team_clause,0.75,50,制造组 / 合规运营,16,2,False,team_fallback,15
+team_clause,0.75,50,制造组 / 知识产权,16,3,False,team_fallback,15
+team_clause,0.75,50,制造组 / 税务核查,16,5,False,team_fallback,15
+team_clause,0.75,50,制造组 / 股权架构,9,0,False,team_fallback,15
+team_clause,0.75,50,制造组 / 诉讼仲裁,19,0,False,team_fallback,15
+team_clause,0.75,50,制造组 / 财务指标,17,2,False,team_fallback,15
+team_clause,0.75,50,制造组 / 重大合同,16,3,False,team_fallback,15
+team_clause,0.75,50,消费组 / 业务概览,18,1,False,team_fallback,15
+team_clause,0.75,50,消费组 / 关连交易,23,2,False,team_fallback,15
+team_clause,0.75,50,消费组 / 历史沿革,17,4,False,team_fallback,15
+team_clause,0.75,50,消费组 / 合规运营,10,4,False,team_fallback,15
+team_clause,0.75,50,消费组 / 知识产权,23,3,False,team_fallback,15
+team_clause,0.75,50,消费组 / 税务核查,15,0,False,team_fallback,15
+team_clause,0.75,50,消费组 / 股权架构,14,3,False,team_fallback,15
+team_clause,0.75,50,消费组 / 诉讼仲裁,16,2,False,team_fallback,15
+team_clause,0.75,50,消费组 / 财务指标,14,2,False,team_fallback,15
+team_clause,0.75,50,消费组 / 重大合同,16,2,False,team_fallback,15
+team_clause,0.75,50,科技组 / 业务概览,17,3,False,team_fallback,15
+team_clause,0.75,50,科技组 / 关连交易,13,1,False,team_fallback,15
+team_clause,0.75,50,科技组 / 历史沿革,17,5,False,team_fallback,15
+team_clause,0.75,50,科技组 / 合规运营,11,2,False,team_fallback,15
+team_clause,0.75,50,科技组 / 知识产权,24,3,False,team_fallback,15
+team_clause,0.75,50,科技组 / 税务核查,17,2,False,team_fallback,15
+team_clause,0.75,50,科技组 / 股权架构,14,2,False,team_fallback,15
+team_clause,0.75,50,科技组 / 诉讼仲裁,9,0,False,team_fallback,15
+team_clause,0.75,50,科技组 / 财务指标,15,2,False,team_fallback,15
+team_clause,0.75,50,科技组 / 重大合同,22,1,False,team_fallback,15
+team_clause,0.75,50,金融组 / 业务概览,15,1,False,team_fallback,15
+team_clause,0.75,50,金融组 / 关连交易,15,1,False,team_fallback,15
+team_clause,0.75,50,金融组 / 历史沿革,14,1,False,team_fallback,15
+team_clause,0.75,50,金融组 / 合规运营,17,2,False,team_fallback,15
+team_clause,0.75,50,金融组 / 知识产权,14,2,False,team_fallback,15
+team_clause,0.75,50,金融组 / 税务核查,14,0,False,team_fallback,15
+team_clause,0.75,50,金融组 / 股权架构,15,3,False,team_fallback,15
+team_clause,0.75,50,金融组 / 诉讼仲裁,17,2,False,team_fallback,15
+team_clause,0.75,50,金融组 / 财务指标,12,1,False,team_fallback,15
+team_clause,0.75,50,金融组 / 重大合同,11,0,False,team_fallback,15
+team_score_clause,0.75,50,制造组 / score<5 / 业务概览,1,0,False,team_fallback,15
+team_score_clause,0.75,50,制造组 / score<5 / 关连交易,1,0,False,team_fallback,15
+team_score_clause,0.75,50,制造组 / score<5 / 历史沿革,1,0,False,team_fallback,15
+team_score_clause,0.75,50,制造组 / score<5 / 合规运营,2,0,False,team_fallback,15
+team_score_clause,0.75,50,制造组 / score<5 / 知识产权,2,1,False,team_fallback,15
+team_score_clause,0.75,50,制造组 / score<5 / 税务核查,3,1,False,team_fallback,15
+team_score_clause,0.75,50,制造组 / score<5 / 诉讼仲裁,3,0,False,team_fallback,15
+team_score_clause,0.75,50,制造组 / score<5 / 财务指标,4,0,False,team_fallback,15
+team_score_clause,0.75,50,制造组 / score<5 / 重大合同,4,2,False,team_fallback,15
+team_score_clause,0.75,50,制造组 / score>=5 / 业务概览,13,1,False,team_fallback,15
+team_score_clause,0.75,50,制造组 / score>=5 / 关连交易,9,0,False,team_fallback,15
+team_score_clause,0.75,50,制造组 / score>=5 / 历史沿革,12,1,False,team_fallback,15
+team_score_clause,0.75,50,制造组 / score>=5 / 合规运营,14,2,False,team_fallback,15
+team_score_clause,0.75,50,制造组 / score>=5 / 知识产权,14,2,False,team_fallback,15
+team_score_clause,0.75,50,制造组 / score>=5 / 税务核查,13,4,False,team_fallback,15
+team_score_clause,0.75,50,制造组 / score>=5 / 股权架构,9,0,False,team_fallback,15
+team_score_clause,0.75,50,制造组 / score>=5 / 诉讼仲裁,16,0,False,team_fallback,15
+team_score_clause,0.75,50,制造组 / score>=5 / 财务指标,13,2,False,team_fallback,15
+team_score_clause,0.75,50,制造组 / score>=5 / 重大合同,12,1,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score<5 / 业务概览,5,1,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score<5 / 关连交易,2,0,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score<5 / 历史沿革,2,2,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score<5 / 合规运营,2,0,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score<5 / 知识产权,3,0,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score<5 / 税务核查,4,0,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score<5 / 股权架构,4,2,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score<5 / 诉讼仲裁,2,1,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score<5 / 财务指标,5,1,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score<5 / 重大合同,1,0,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score>=5 / 业务概览,13,0,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score>=5 / 关连交易,21,2,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score>=5 / 历史沿革,15,2,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score>=5 / 合规运营,8,4,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score>=5 / 知识产权,20,3,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score>=5 / 税务核查,11,0,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score>=5 / 股权架构,10,1,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score>=5 / 诉讼仲裁,14,1,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score>=5 / 财务指标,9,1,False,team_fallback,15
+team_score_clause,0.75,50,消费组 / score>=5 / 重大合同,15,2,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score<5 / 业务概览,5,0,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score<5 / 关连交易,1,0,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score<5 / 历史沿革,1,0,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score<5 / 合规运营,1,0,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score<5 / 知识产权,5,0,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score<5 / 税务核查,2,1,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score<5 / 股权架构,1,1,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score<5 / 诉讼仲裁,1,0,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score<5 / 财务指标,3,1,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score<5 / 重大合同,4,0,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score>=5 / 业务概览,12,3,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score>=5 / 关连交易,12,1,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score>=5 / 历史沿革,16,5,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score>=5 / 合规运营,10,2,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score>=5 / 知识产权,19,3,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score>=5 / 税务核查,15,1,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score>=5 / 股权架构,13,1,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score>=5 / 诉讼仲裁,8,0,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score>=5 / 财务指标,12,1,False,team_fallback,15
+team_score_clause,0.75,50,科技组 / score>=5 / 重大合同,18,1,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score<5 / 业务概览,2,0,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score<5 / 关连交易,1,0,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score<5 / 历史沿革,4,0,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score<5 / 合规运营,4,1,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score<5 / 知识产权,2,1,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score<5 / 税务核查,4,0,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score<5 / 股权架构,5,1,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score<5 / 诉讼仲裁,5,0,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score<5 / 财务指标,1,0,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score<5 / 重大合同,2,0,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score>=5 / 业务概览,13,1,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score>=5 / 关连交易,14,1,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score>=5 / 历史沿革,10,1,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score>=5 / 合规运营,13,1,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score>=5 / 知识产权,12,1,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score>=5 / 税务核查,10,0,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score>=5 / 股权架构,10,2,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score>=5 / 诉讼仲裁,12,2,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score>=5 / 财务指标,11,1,False,team_fallback,15
+team_score_clause,0.75,50,金融组 / score>=5 / 重大合同,9,0,False,team_fallback,15
+global,1,50,all_eligible,615,74,True,segment,15
+team,1,50,制造组,146,17,True,segment,15
+team,1,50,消费组,166,23,True,segment,15
+team,1,50,科技组,159,21,True,segment,15
+team,1,50,金融组,144,13,True,segment,15
+team_score,1,50,制造组 / score<5,21,4,False,team_fallback,15
+team_score,1,50,制造组 / score>=5,125,13,True,segment,15
+team_score,1,50,消费组 / score<5,30,7,False,team_fallback,15
+team_score,1,50,消费组 / score>=5,136,16,True,segment,15
+team_score,1,50,科技组 / score<5,24,3,False,team_fallback,15
+team_score,1,50,科技组 / score>=5,135,18,True,segment,15
+team_score,1,50,金融组 / score<5,30,3,False,team_fallback,15
+team_score,1,50,金融组 / score>=5,114,10,True,segment,15
+team_clause,1,50,制造组 / 业务概览,14,1,False,team_fallback,15
+team_clause,1,50,制造组 / 关连交易,10,0,False,team_fallback,15
+team_clause,1,50,制造组 / 历史沿革,13,1,False,team_fallback,15
+team_clause,1,50,制造组 / 合规运营,16,2,False,team_fallback,15
+team_clause,1,50,制造组 / 知识产权,16,3,False,team_fallback,15
+team_clause,1,50,制造组 / 税务核查,16,5,False,team_fallback,15
+team_clause,1,50,制造组 / 股权架构,9,0,False,team_fallback,15
+team_clause,1,50,制造组 / 诉讼仲裁,19,0,False,team_fallback,15
+team_clause,1,50,制造组 / 财务指标,17,2,False,team_fallback,15
+team_clause,1,50,制造组 / 重大合同,16,3,False,team_fallback,15
+team_clause,1,50,消费组 / 业务概览,18,1,False,team_fallback,15
+team_clause,1,50,消费组 / 关连交易,23,2,False,team_fallback,15
+team_clause,1,50,消费组 / 历史沿革,17,4,False,team_fallback,15
+team_clause,1,50,消费组 / 合规运营,10,4,False,team_fallback,15
+team_clause,1,50,消费组 / 知识产权,23,3,False,team_fallback,15
+team_clause,1,50,消费组 / 税务核查,15,0,False,team_fallback,15
+team_clause,1,50,消费组 / 股权架构,14,3,False,team_fallback,15
+team_clause,1,50,消费组 / 诉讼仲裁,16,2,False,team_fallback,15
+team_clause,1,50,消费组 / 财务指标,14,2,False,team_fallback,15
+team_clause,1,50,消费组 / 重大合同,16,2,False,team_fallback,15
+team_clause,1,50,科技组 / 业务概览,17,3,False,team_fallback,15
+team_clause,1,50,科技组 / 关连交易,13,1,False,team_fallback,15
+team_clause,1,50,科技组 / 历史沿革,17,5,False,team_fallback,15
+team_clause,1,50,科技组 / 合规运营,11,2,False,team_fallback,15
+team_clause,1,50,科技组 / 知识产权,24,3,False,team_fallback,15
+team_clause,1,50,科技组 / 税务核查,17,2,False,team_fallback,15
+team_clause,1,50,科技组 / 股权架构,14,2,False,team_fallback,15
+team_clause,1,50,科技组 / 诉讼仲裁,9,0,False,team_fallback,15
+team_clause,1,50,科技组 / 财务指标,15,2,False,team_fallback,15
+team_clause,1,50,科技组 / 重大合同,22,1,False,team_fallback,15
+team_clause,1,50,金融组 / 业务概览,15,1,False,team_fallback,15
+team_clause,1,50,金融组 / 关连交易,15,1,False,team_fallback,15
+team_clause,1,50,金融组 / 历史沿革,14,1,False,team_fallback,15
+team_clause,1,50,金融组 / 合规运营,17,2,False,team_fallback,15
+team_clause,1,50,金融组 / 知识产权,14,2,False,team_fallback,15
+team_clause,1,50,金融组 / 税务核查,14,0,False,team_fallback,15
+team_clause,1,50,金融组 / 股权架构,15,3,False,team_fallback,15
+team_clause,1,50,金融组 / 诉讼仲裁,17,2,False,team_fallback,15
+team_clause,1,50,金融组 / 财务指标,12,1,False,team_fallback,15
+team_clause,1,50,金融组 / 重大合同,11,0,False,team_fallback,15
+team_score_clause,1,50,制造组 / score<5 / 业务概览,1,0,False,team_fallback,15
+team_score_clause,1,50,制造组 / score<5 / 关连交易,1,0,False,team_fallback,15
+team_score_clause,1,50,制造组 / score<5 / 历史沿革,1,0,False,team_fallback,15
+team_score_clause,1,50,制造组 / score<5 / 合规运营,2,0,False,team_fallback,15
+team_score_clause,1,50,制造组 / score<5 / 知识产权,2,1,False,team_fallback,15
+team_score_clause,1,50,制造组 / score<5 / 税务核查,3,1,False,team_fallback,15
+team_score_clause,1,50,制造组 / score<5 / 诉讼仲裁,3,0,False,team_fallback,15
+team_score_clause,1,50,制造组 / score<5 / 财务指标,4,0,False,team_fallback,15
+team_score_clause,1,50,制造组 / score<5 / 重大合同,4,2,False,team_fallback,15
+team_score_clause,1,50,制造组 / score>=5 / 业务概览,13,1,False,team_fallback,15
+team_score_clause,1,50,制造组 / score>=5 / 关连交易,9,0,False,team_fallback,15
+team_score_clause,1,50,制造组 / score>=5 / 历史沿革,12,1,False,team_fallback,15
+team_score_clause,1,50,制造组 / score>=5 / 合规运营,14,2,False,team_fallback,15
+team_score_clause,1,50,制造组 / score>=5 / 知识产权,14,2,False,team_fallback,15
+team_score_clause,1,50,制造组 / score>=5 / 税务核查,13,4,False,team_fallback,15
+team_score_clause,1,50,制造组 / score>=5 / 股权架构,9,0,False,team_fallback,15
+team_score_clause,1,50,制造组 / score>=5 / 诉讼仲裁,16,0,False,team_fallback,15
+team_score_clause,1,50,制造组 / score>=5 / 财务指标,13,2,False,team_fallback,15
+team_score_clause,1,50,制造组 / score>=5 / 重大合同,12,1,False,team_fallback,15
+team_score_clause,1,50,消费组 / score<5 / 业务概览,5,1,False,team_fallback,15
+team_score_clause,1,50,消费组 / score<5 / 关连交易,2,0,False,team_fallback,15
+team_score_clause,1,50,消费组 / score<5 / 历史沿革,2,2,False,team_fallback,15
+team_score_clause,1,50,消费组 / score<5 / 合规运营,2,0,False,team_fallback,15
+team_score_clause,1,50,消费组 / score<5 / 知识产权,3,0,False,team_fallback,15
+team_score_clause,1,50,消费组 / score<5 / 税务核查,4,0,False,team_fallback,15
+team_score_clause,1,50,消费组 / score<5 / 股权架构,4,2,False,team_fallback,15
+team_score_clause,1,50,消费组 / score<5 / 诉讼仲裁,2,1,False,team_fallback,15
+team_score_clause,1,50,消费组 / score<5 / 财务指标,5,1,False,team_fallback,15
+team_score_clause,1,50,消费组 / score<5 / 重大合同,1,0,False,team_fallback,15
+team_score_clause,1,50,消费组 / score>=5 / 业务概览,13,0,False,team_fallback,15
+team_score_clause,1,50,消费组 / score>=5 / 关连交易,21,2,False,team_fallback,15
+team_score_clause,1,50,消费组 / score>=5 / 历史沿革,15,2,False,team_fallback,15
+team_score_clause,1,50,消费组 / score>=5 / 合规运营,8,4,False,team_fallback,15
+team_score_clause,1,50,消费组 / score>=5 / 知识产权,20,3,False,team_fallback,15
+team_score_clause,1,50,消费组 / score>=5 / 税务核查,11,0,False,team_fallback,15
+team_score_clause,1,50,消费组 / score>=5 / 股权架构,10,1,False,team_fallback,15
+team_score_clause,1,50,消费组 / score>=5 / 诉讼仲裁,14,1,False,team_fallback,15
+team_score_clause,1,50,消费组 / score>=5 / 财务指标,9,1,False,team_fallback,15
+team_score_clause,1,50,消费组 / score>=5 / 重大合同,15,2,False,team_fallback,15
+team_score_clause,1,50,科技组 / score<5 / 业务概览,5,0,False,team_fallback,15
+team_score_clause,1,50,科技组 / score<5 / 关连交易,1,0,False,team_fallback,15
+team_score_clause,1,50,科技组 / score<5 / 历史沿革,1,0,False,team_fallback,15
+team_score_clause,1,50,科技组 / score<5 / 合规运营,1,0,False,team_fallback,15
+team_score_clause,1,50,科技组 / score<5 / 知识产权,5,0,False,team_fallback,15
+team_score_clause,1,50,科技组 / score<5 / 税务核查,2,1,False,team_fallback,15
+team_score_clause,1,50,科技组 / score<5 / 股权架构,1,1,False,team_fallback,15
+team_score_clause,1,50,科技组 / score<5 / 诉讼仲裁,1,0,False,team_fallback,15
+team_score_clause,1,50,科技组 / score<5 / 财务指标,3,1,False,team_fallback,15
+team_score_clause,1,50,科技组 / score<5 / 重大合同,4,0,False,team_fallback,15
+team_score_clause,1,50,科技组 / score>=5 / 业务概览,12,3,False,team_fallback,15
+team_score_clause,1,50,科技组 / score>=5 / 关连交易,12,1,False,team_fallback,15
+team_score_clause,1,50,科技组 / score>=5 / 历史沿革,16,5,False,team_fallback,15
+team_score_clause,1,50,科技组 / score>=5 / 合规运营,10,2,False,team_fallback,15
+team_score_clause,1,50,科技组 / score>=5 / 知识产权,19,3,False,team_fallback,15
+team_score_clause,1,50,科技组 / score>=5 / 税务核查,15,1,False,team_fallback,15
+team_score_clause,1,50,科技组 / score>=5 / 股权架构,13,1,False,team_fallback,15
+team_score_clause,1,50,科技组 / score>=5 / 诉讼仲裁,8,0,False,team_fallback,15
+team_score_clause,1,50,科技组 / score>=5 / 财务指标,12,1,False,team_fallback,15
+team_score_clause,1,50,科技组 / score>=5 / 重大合同,18,1,False,team_fallback,15
+team_score_clause,1,50,金融组 / score<5 / 业务概览,2,0,False,team_fallback,15
+team_score_clause,1,50,金融组 / score<5 / 关连交易,1,0,False,team_fallback,15
+team_score_clause,1,50,金融组 / score<5 / 历史沿革,4,0,False,team_fallback,15
+team_score_clause,1,50,金融组 / score<5 / 合规运营,4,1,False,team_fallback,15
+team_score_clause,1,50,金融组 / score<5 / 知识产权,2,1,False,team_fallback,15
+team_score_clause,1,50,金融组 / score<5 / 税务核查,4,0,False,team_fallback,15
+team_score_clause,1,50,金融组 / score<5 / 股权架构,5,1,False,team_fallback,15
+team_score_clause,1,50,金融组 / score<5 / 诉讼仲裁,5,0,False,team_fallback,15
+team_score_clause,1,50,金融组 / score<5 / 财务指标,1,0,False,team_fallback,15
+team_score_clause,1,50,金融组 / score<5 / 重大合同,2,0,False,team_fallback,15
+team_score_clause,1,50,金融组 / score>=5 / 业务概览,13,1,False,team_fallback,15
+team_score_clause,1,50,金融组 / score>=5 / 关连交易,14,1,False,team_fallback,15
+team_score_clause,1,50,金融组 / score>=5 / 历史沿革,10,1,False,team_fallback,15
+team_score_clause,1,50,金融组 / score>=5 / 合规运营,13,1,False,team_fallback,15
+team_score_clause,1,50,金融组 / score>=5 / 知识产权,12,1,False,team_fallback,15
+team_score_clause,1,50,金融组 / score>=5 / 税务核查,10,0,False,team_fallback,15
+team_score_clause,1,50,金融组 / score>=5 / 股权架构,10,2,False,team_fallback,15
+team_score_clause,1,50,金融组 / score>=5 / 诉讼仲裁,12,2,False,team_fallback,15
+team_score_clause,1,50,金融组 / score>=5 / 财务指标,11,1,False,team_fallback,15
+team_score_clause,1,50,金融组 / score>=5 / 重大合同,9,0,False,team_fallback,15

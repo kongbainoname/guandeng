@@ -1,0 +1,27 @@
+{
+  "timely_definition": "lag_minutes <= 1",
+  "reference_window": "2026-09-01 to 2026-09-05",
+  "reference_n": 76,
+  "reference_failures": 2,
+  "threshold_candidates": [
+    null,
+    1,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65
+  ],
+  "min_reference_support": 10,
+  "min_rule_support": 50,
+  "raw_sha256": "deb9315f42e576e7227b98ec81ee5f34294d00bc5c3ab4d9bad0a43b7d460822",
+  "claim": "observational reference scenario, not an intervention effect or guarantee"
+}

@@ -1,0 +1,5 @@
+token_lag,records,labeled,missing_labels,failures,failure_rate
+lag<=15 / token<=65,680,652,28,19,0.029141104294478526
+lag<=15 / token>65,131,124,7,4,0.03225806451612903
+lag>15 / token<=65,259,246,13,71,0.2886178861788618
+lag>15 / token>65,86,82,4,26,0.3170731707317073

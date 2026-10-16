@@ -1,0 +1,34 @@
+{
+  "status": "offline_scenario_not_causal_estimate",
+  "q_assumed": 0.5,
+  "min_support": 50,
+  "excluded_teams": [
+    "医疗组"
+  ],
+  "train_before": "2026-09-06T00:00:00+08:00",
+  "team_thresholds": {
+    "制造组": 15,
+    "消费组": 15,
+    "科技组": 15,
+    "金融组": 15
+  },
+  "threshold_candidates": [
+    null,
+    -1,
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65
+  ],
+  "raw_sha256": "deb9315f42e576e7227b98ec81ee5f34294d00bc5c3ab4d9bad0a43b7d460822"
+}

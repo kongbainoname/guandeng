@@ -1,0 +1,6 @@
+team_code,records,labeled,missing_labels,failures,failure_rate
+制造组,23,23,0,0,0.0
+医疗组,16,16,0,2,0.125
+消费组,13,13,0,0,0.0
+科技组,10,10,0,0,0.0
+金融组,14,14,0,0,0.0
